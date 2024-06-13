@@ -1,0 +1,71 @@
+.battery{
+    width: 138px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.charge1{
+    width: 30px;
+    height: 40px;
+    background-color: green;
+    /* transform: scaleX(1);
+    transform-origin: top left; */
+    /* transition-delay: 1s; */
+    transition: 0.3s ease-in-out;
+
+
+}
+.charge1:hover{
+   
+    transform: scaleX(1);
+    transform-origin: top left;
+
+}
+
+
+.charge2{
+    width: 30px;
+    height: 40px;
+    background-color: green;
+   
+    transition: 0.9s ease;
+
+}
+.charge2:hover{
+    
+    transform: scaleX(1.2);
+    transform-origin: top left;
+
+}
+.charge3{
+    width: 30px;
+    height: 40px;
+    background-color: green;
+    transition: 1.5s ease;
+    
+
+}
+.charge3:hover{
+    
+    transform: scaleX(1.9);
+    transform-origin: top left;
+
+}
+
+.charge4{
+    width: 30px;
+    height: 40px;
+    background-color: green;
+    transition: 2.5s ease;
+    
+
+}
+.charge4:hover{
+    
+    transform: scaleX(2);
+    transform-origin: top left;
+
+}
+
